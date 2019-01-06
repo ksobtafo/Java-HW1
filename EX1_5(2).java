@@ -1,43 +1,15 @@
-public class EmployeeTest
 
-{
+package p; 
+public class EmployeeTest{
+Employee Person1 = new Employee(); // person object 
 
-void  DisplayName()
-{
- System.out.printf(name);
-}
-void  DisplayHireDate()
-{
-System.out.printf(HireDate);
-}
-void  DisplayPositionAtCompany()
-{
-System.out.printf(PositionAtCompany);
-}
-void  DisplayReportTo()
-{
-System.out.printf(ReportTo);
-}
-void DisplayID()
-{
-    System.out.printf(ID);
-}
-
-}
-
-import java.util.Scanner;
-public static void main (String[] args) {
-Scanner reader = new Scanner(System.in);
-System.out.println("What is your name?");
-name = reader.nextInt();
-System.out.println("What is your Hire Date");
-HireDate = reader.nextInt();
-System.out.println("What is your Position at this company");
-PositionAtCompany = reader.nextInt();
-System.out.println("Who do you report to?");
-ReportTo = reader.nextInt();
-System.out.println("What is your ID?");
-ID = reader.nextInt();
-
+Person1.Name =" Kent Jones";
+Person1.HireDate = "June 10th";
+Person1.PositionAtCompany = "Teacher";
+Person1.ID = 1726070;
+Person1.ReportTo = " Beck Taylor";
+System.out.println("The first Employee's name is "+Person1.Name + " this person got hired " +Person1.HireDate+
+                     "this person is a " +Person1.PositionAtCompany+ " this person's ID  number is"+ Person1.ID+
+                     " and this person reports to " + Person1.ReportTo );
 
 }
