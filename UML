@@ -4,9 +4,5 @@ EMPLOYEE
 -PositionAtCompany:string
 -ReportTo:string
 -ID:int
-+DisplayName():void
-+DisplayHireDate():void
-+DisplayPositionAtCompany():void
-+DisplayReportTo():void
-+DisplayID():void
+
 
