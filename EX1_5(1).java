@@ -1,11 +1,14 @@
 //Design a class to manage employees at a company. An Employee has a unique ID, a name, a hire date, their current position at the company, and who they report to.
 // Give the UML for your class.
-package p;
-public class Employee {
-    string name;
-    string HireDate;
-    string PositionAtCompany;
-    string ReportTo; 
+ public class Employee {
+    String Name;
+    String HireDate;
+    String PositionAtCompany;
+    String ReportTo; 
     int ID; 
+    public String toString() {
+        return Name+" was hired on "+HireDate  + ". He is a " + PositionAtCompany + " who reports to " + ReportTo  + " with an ID number of " + ID;
+    }
+
  }
     
