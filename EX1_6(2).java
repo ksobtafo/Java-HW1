@@ -4,6 +4,7 @@
 //calculate the difference (in days) between two date objects, 
 //and create a new date n days in the future of the current date object.
 
+import java.util.*;
 public class DateTest {
     public static void main(String[] args) {
 
@@ -31,8 +32,10 @@ public class DateTest {
         {
             return Year;
         }
-
+        public void GetTheDate()
+        {
+    theDate today = Calendar.getInstance().getTime();
+    System.out.println(today);
+       }
     }
-
-    
 }
