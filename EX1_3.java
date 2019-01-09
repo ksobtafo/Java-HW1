@@ -23,6 +23,7 @@ public class StringOrInt
     }
     else 
     {
+         //PT-- Good work, but again, loop for the invalid case rather than exit the program.
     System.out.printf(" You did not input a number!  "); 
     }
 }
