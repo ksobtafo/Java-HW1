@@ -13,6 +13,8 @@ public class BMI
     weight = input.nextInt();  
     System.out.printf("Enter your height in inches: "); 
     height = input.nextInt(); 
+        //PT -- name these values, like you did for PI in the previous exercise
+        // final double KG_PER_POUND = 0.45;
     double weightKg = weight * 0.45;
     double heightM = height * 0.025;
     double finalbmi = weightKg/heightM;
