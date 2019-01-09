@@ -23,6 +23,7 @@ public class OddEven
     }
     else 
          {
+        //PT -- better to loop here, and give the user another try, rather than quit the program.
         System.out.printf("this number is not between 10 and 100 /n");
          }
     }
