@@ -10,5 +10,7 @@
         return Name+" was hired on "+HireDate  + ". He is a " + PositionAtCompany + " who reports to " + ReportTo  + " with an ID number of " + ID;
     }
 
+  //PT -- Need some get and set functions so that code can use this object (other than toString()).
+  //  -4
  }
     
